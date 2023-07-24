@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fdf1d4;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.login{
+    background-color: rgb(255 255 255 / 0.3);
+    backdrop-filter: blur(10px);
+    height: 400px;
+    width: 700px;
+    display: flex;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;   
+}
+.image{
+    background-image: url(BG.jpg);
+    border-radius: 20px;
+    margin: 10px;
+    height: 380px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;   
+}
+.image img{
+    width: 200px;
+    filter: drop-shadow(3px 3px 5px #222);
+}
+.login .cardli{
+    width: 350px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.cardli .input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardli .word{
+    font-size: 10px;
+    margin-bottom: 25px;
+}
+.input .check{
+    display: flex;
+    margin: 10px;
+    font-size: 13px;
+}
+.input .donthave{
+    display: flex;
+}
+.user input, .password input{
+    background: none;
+    border: none;
+    height: 40px;
+    width: 270px;   
+    padding-left: 30px;
+    outline: 0;
+    margin-top: 10px;
+    border-bottom: solid 1px #d1ba84;
+}
+.user i, .password i{
+    transform: translateX(28px);
+    color: #F3B511;
+}
+.input button{
+    height: 40px;
+    width: 180px;
+    border-radius: 20px;
+    border: none;
+    background-color: #d1ba84;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 5px;
+    transition: all 0.2s ease;
+}
+button:hover {
+    background-color: #d1ba84;
+  transform: translateY(-3px);
+}
+
+button:active {
+  transform: translateY(2px);
+  background-color: #cfad57;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.donthave{
+    font-size: 13px;
+}
+.input .name{
+    display: flex;
+}
+.name input{
+    height: 30px;
+    width: 120px;
+    margin: 5px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: solid 1px #d1ba84;
+}
+a{
+    color: #F3B511;
+    font-weight: bold;
+    filter: drop-shadow(1px 1px 5px white);
+}
+.button{
+    margin: 10px;
+    margin-top: 20px;
+}
